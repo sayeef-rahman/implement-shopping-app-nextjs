@@ -15,6 +15,13 @@ a {
   box-sizing: border-box;
 }
 
+li{
+  list-style: none;
+}
+.nav-list{
+  margin: auto 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

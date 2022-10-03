@@ -1,137 +1,145 @@
 const Footer = () => {
   return (
-    <footer class="text-center text-lg-start bg-light text-muted">
-      Section: Social media
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        Left
-        <div class="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        Left Right
-        <div>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-        Right
-      </section>
-      Section: Social media Section: Links
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          Grid row
-          <div class="row mt-3">
-            Grid column
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              Content
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Company name
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
-            </div>
-            Grid column Grid column
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              Links
-              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-              <p>
-                <a href="#!" class="text-reset">
-                  Angular
+    <div className="container position-absolute bottom-0 start-50 translate-middle-x">
+      <footer className="pt-5 ">
+        <div className="row">
+          <div className="col-2">
+            <h5>Section</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Home
                 </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  React
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Features
                 </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Laravel
-                </a>
-              </p>
-            </div>
-            Grid column Grid column
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              Links
-              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-              <p>
-                <a href="#!" class="text-reset">
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Pricing
                 </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Settings
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  FAQs
                 </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Orders
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  About
                 </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Help
-                </a>
-              </p>
-            </div>
-            Grid column Grid column
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              Links
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <i class="fas fa-home me-3"></i> New York, NY 10012, US
-              </p>
-              <p>
-                <i class="fas fa-envelope me-3"></i>
-                info@example.com
-              </p>
-              <p>
-                <i class="fas fa-phone me-3"></i> + 01 234 567 88
-              </p>
-              <p>
-                <i class="fas fa-print me-3"></i> + 01 234 567 89
-              </p>
-            </div>
-            Grid column
+              </li>
+            </ul>
           </div>
-          Grid row
+
+          <div className="col-2">
+            <h5>Section</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Features
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Pricing
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  FAQs
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-2">
+            <h5>Section</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Features
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  Pricing
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  FAQs
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-4 offset-1">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div className="d-flex w-100 gap-2">
+                <label htmlFor="newsletter1" className="visually-hidden">
+                  Email address
+                </label>
+                <input
+                  id="newsletter1"
+                  type="text"
+                  className="form-control"
+                  placeholder="Email address"
+                />
+                <button className="btn btn-primary" type="button">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-      </section>
-      Section: Links Copyright
-      <div
-        class="text-center p-4"
-        style="background-color: rgba(0, 0, 0, 0.05);"
-      >
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-          MDBootstrap.com
-        </a>
-      </div>
-      Copyright
-    </footer>
+
+        <div className="d-flex justify-content-between py-4 my-4 border-top">
+          <p>© 2021 Company, Inc. All rights reserved.</p>
+          <ul className="list-unstyled d-flex">
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24"></svg>
+              </a>
+            </li>
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24"></svg>
+              </a>
+            </li>
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24"></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   );
 };
 
